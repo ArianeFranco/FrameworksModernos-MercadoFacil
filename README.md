@@ -5,7 +5,7 @@ Frameworks Modernos para Desenvolvimento de Sistemas – UNEMAT – Campus de Si
 
 ## 👥 Integrantes do Grupo
 - Ariane Franco da Silva Pinto
-- Miszleni
+- Miszleni Caroline Souza Sudre
 
 ## 🛠️ Tecnologias Utilizadas
 
