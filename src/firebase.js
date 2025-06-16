@@ -1,14 +1,14 @@
-import { initializeApp } from "firebase/app";
-import { getAuth, GoogleAuthProvider, signInWithPopup, signOut } from "firebase/auth";
+import { initializeApp } from 'firebase/app'
+import { getAuth, GoogleAuthProvider } from 'firebase/auth'
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBpe_BKzv4FXh0MhF4qEFiMQYuK7jSwrkk",
-  authDomain: "atividade-frameworks-308bd.firebaseapp.com",
-  projectId: "atividade-frameworks-308bd",
-};
+  apiKey: "AIzaSyAESuqGm_0E1wwfTHbS4iToRgRQdQPVQZA",
+  authDomain: "av02-frameworks.firebaseapp.com",
+  projectId: "Sav02-frameworks",
+}
 
-const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
-const provider = new GoogleAuthProvider();
+const app = initializeApp(firebaseConfig)
+const auth = getAuth(app)
+const provider = new GoogleAuthProvider()
 
-export { auth, provider, signInWithPopup, signOut };
+export { auth, provider }

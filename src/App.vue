@@ -1,9 +1,17 @@
+<script setup>
+import { useAuthStore } from './store/auth'
+useAuthStore().init()
+</script>
+
 <template>
-  <router-view />
+  <v-app>
+    <router-view />
+  </v-app>
 </template>
 
-<script>
-export default {
-  name: 'App',
+<style>
+html, body, #app {
+  height: 100%;
+  margin: 0;
 }
-</script>
+</style>

@@ -1,29 +1,64 @@
-# minha
+# Sistema de Controle de Estoque e Vendas – Mercado Fácil
 
-This template should help get you started developing with Vue 3 in Vite.
+## 📘 Disciplina
+Frameworks Modernos para Desenvolvimento de Sistemas – UNEMAT – Campus de Sinop
 
-## Recommended IDE Setup
+## 👥 Integrantes do Grupo
+- Ariane Franco da Silva Pinto
+- Miszleni
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🛠️ Tecnologias Utilizadas
 
-## Customize configuration
+**Front-end:**
+- Vue.js 3 (Composition API)
+- Vuetify
+- Pinia
+- Vue Router
+- Firebase Authentication
+- Chart.js
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+**Back-end:**
+- Node.js com Express
+- MySQL
+- Firebase Admin (verificação de token)
+- JWT via Firebase
 
-## Project Setup
+## 💡 Descrição do Sistema
 
-```sh
+O sistema **Mercado Fácil** tem como objetivo simplificar o controle de estoque e vendas de pequenos comércios. Ele oferece funcionalidades como:
+
+- Cadastro e login de usuários (com opção via Google)
+- Registro de produtos e controle de estoque
+- Registro de vendas e histórico detalhado
+- Dashboard com visão geral e gráficos
+- Tela de perfil para personalização dos dados do estabelecimento
+
+## 📦 Estrutura do Projeto
+
+📁 projeto-raiz/
+├── frontend/
+│ └── aplicação Vue.js com Vuetify e Firebase
+├── backend/
+│ └── API RESTful com Express.js, MySQL e Firebase Admin
+└── README.md
+
+
+## 🚀 Instruções para Executar
+
+### 🖥️Front-end
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### 🔧Back-end
+
+```bash
+cd backend
 bun install
+bun run index.js
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
-bun dev
-```
-
-### Compile and Minify for Production
-
-```sh
-bun run build
-```
+> Certifique-se de configurar o arquivo `.env` corretamente no backend e o Firebase no front-end.
